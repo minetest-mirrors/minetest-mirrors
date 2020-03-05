@@ -1,0 +1,16 @@
+name: advtrains
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: mirror
+      run: ./mirror.sh https://cheapiesystems.com/git/digistuff git@github.com:minetest-mirrors/digistuff.git master
