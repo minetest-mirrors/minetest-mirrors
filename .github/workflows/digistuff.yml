@@ -1,4 +1,4 @@
-name: advtrains
+name: digistuff
 
 on:
   schedule:
@@ -13,4 +13,9 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: mirror
-      run: ./mirror.sh https://cheapiesystems.com/git/digistuff git@github.com:minetest-mirrors/digistuff.git master
+      run: ./mirror.sh
+      env:
+        source_repo: https://cheapiesystems.com/git/digistuff
+        github_repo: digistuff.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}

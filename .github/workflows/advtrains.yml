@@ -13,4 +13,9 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: mirror
-      run: ./mirror.sh https://git.bananach.space/advtrains.git git@github.com:minetest-mirrors/advtrains.git master
+      run: ./mirror.sh
+      env:
+        source_repo: https://git.bananach.space/advtrains.git
+        github_repo: advtrains.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git clone $1 gh_repo
+git clone https://${access_token}@github.com/minetest-mirrors/${github_repo} gh_repo
 cd gh_repo
-git pull $2 $3
-git push origin $3
+git pull ${source_repo} ${branch}
+git push origin ${branch}
