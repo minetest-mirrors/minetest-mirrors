@@ -17,7 +17,7 @@ jobs:
     - name: mirror
       run: ./mirror.sh
       env:
-        source_repo: https://git.leagueh.xyz/aldenp/playerfactions.git
+        source_repo: https://git.leagueh.xyz/katp32/playerfactions.git
         github_repo: playerfactions.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
