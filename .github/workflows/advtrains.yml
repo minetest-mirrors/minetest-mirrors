@@ -1,8 +1,8 @@
 name: advtrains
 
 on:
-  push:
-    branches: ['master']
+#  push:
+#    branches: ['master']
   schedule:
     - cron:  '0 * * * *'
 
