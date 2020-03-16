@@ -11,6 +11,11 @@ Mirrored repositories from unreliable git-hostings
 
 ## notabug.org
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/bonemeal/badge.svg)
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/ambience/badge.svg)
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/bakedclay/badge.svg)
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/farming/badge.svg)
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/wine/badge.svg)
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/falling_item/badge.svg)
 
 ## git.leagueh.xyz
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/playerfactions/badge.svg)

@@ -1,0 +1,21 @@
+name: bakedclay
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: mirror
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/bakedclay.git
+        github_repo: bakedclay.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
