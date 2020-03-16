@@ -5,6 +5,7 @@ Mirrored repositories from unreliable git-hostings
 ## git.bananach.space
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/advtrains/badge.svg)
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/ehlphabet/badge.svg)
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/advtrains_platform/badge.svg)
 
 ## cheapiesystems.com
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/digistuff/badge.svg)
