@@ -18,6 +18,7 @@ Mirrored repositories from unreliable git-hostings
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/farming/badge.svg)
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/wine/badge.svg)
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/falling_item/badge.svg)
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/mobs_redo/badge.svg)
 
 ## git.leagueh.xyz
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/playerfactions/badge.svg)
