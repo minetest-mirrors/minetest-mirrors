@@ -20,6 +20,10 @@ Mirrored repositories from unreliable git-hostings
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/falling_item/badge.svg)
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/mobs_redo/badge.svg)
 
+## codeberg.org
+
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/hidden_doors/badge.svg)
+
 ## git.leagueh.xyz
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/playerfactions/badge.svg)
 
