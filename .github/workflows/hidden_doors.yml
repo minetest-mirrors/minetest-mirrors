@@ -1,0 +1,21 @@
+name: hidden_doors
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: mirror
+      run: ./mirror.sh
+      env:
+        source_repo: https://codeberg.org/Hamlet/hidden_doors.git
+        github_repo: hidden_doors.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
