@@ -21,7 +21,6 @@ Mirrored repositories from unreliable git-hostings
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/mobs_redo/badge.svg)
 
 ## codeberg.org
-
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/hidden_doors/badge.svg)
 
 ## git.leagueh.xyz
@@ -31,3 +30,6 @@ Mirrored repositories from unreliable git-hostings
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/easyvend/badge.svg)
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/hudbars/badge.svg)
 ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/hbarmor/badge.svg)
+
+## gitlab.com
+![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/pipeworks/badge.svg)

@@ -1,0 +1,21 @@
+name: pipeworks
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: mirror
+      run: ./mirror.sh
+      env:
+        source_repo: https://gitlab.com/VanessaE/pipeworks.git
+        github_repo: pipeworks.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
