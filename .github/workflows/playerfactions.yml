@@ -17,5 +17,5 @@ jobs:
       env:
         source_repo: https://git.leagueh.xyz/katp32/playerfactions.git
         github_repo: playerfactions.git
-        branch: master
+        branch: main
         access_token: ${{ secrets.ACCESS_TOKEN }}
