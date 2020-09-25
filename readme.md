@@ -22,6 +22,7 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/wine
 * https://github.com/minetest-mirrors/falling_item
 * https://github.com/minetest-mirrors/mobs_redo
+* https://github.com/minetest-mirrors/mobs_animal
 
 ## codeberg.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/codeberg-org/badge.svg)
 
