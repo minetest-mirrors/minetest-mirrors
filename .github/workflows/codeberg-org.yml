@@ -1,4 +1,4 @@
-name: hidden_doors
+name: codeberg-org
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2.3.3
 
-    - name: mirror
+    - name: hidden_doors
       run: ./mirror.sh
       env:
         source_repo: https://codeberg.org/Hamlet/hidden_doors.git

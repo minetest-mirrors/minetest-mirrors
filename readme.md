@@ -23,19 +23,20 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/falling_item
 * https://github.com/minetest-mirrors/mobs_redo
 
-## codeberg.org
+## codeberg.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/codeberg-org/badge.svg)
 
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/hidden_doors/badge.svg) https://github.com/minetest-mirrors/hidden_doors
+* https://github.com/minetest-mirrors/hidden_doors
 
-## git.leagueh.xyz
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/playerfactions/badge.svg) https://github.com/minetest-mirrors/playerfactions
+## git.leagueh.xyz ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/git-leagueh-xyz/badge.svg)
 
-## repo.or.cz
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/easyvend/badge.svg) https://github.com/minetest-mirrors/easyvend
+* https://github.com/minetest-mirrors/playerfactions
 
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/hudbars/badge.svg) https://github.com/minetest-mirrors/hudbars
+## repo.or.cz ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/repo-or-cz/badge.svg)
 
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/hbarmor/badge.svg) https://github.com/minetest-mirrors/hbarmor
+* https://github.com/minetest-mirrors/easyvend
+* https://github.com/minetest-mirrors/hudbars
+* https://github.com/minetest-mirrors/hbarmor
 
-## gitlab.com
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/pipeworks/badge.svg) https://github.com/minetest-mirrors/pipeworks
+## gitlab.com ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/gitlab-com/badge.svg)
+
+* https://github.com/minetest-mirrors/pipeworks
