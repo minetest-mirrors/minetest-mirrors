@@ -16,6 +16,7 @@ test "${LOCAL_SHA}" == "${REMOTE_SHA}" && exit 0
 echo "Changes detected! Cloning and updating local repo"
 
 # clone, pull and push
+rm gh_repo -rf
 git clone -b ${branch} ${GITHUB_REPO_URL} gh_repo || exit -1
 cd gh_repo
 git pull ${source_repo} ${branch} || exit -1
