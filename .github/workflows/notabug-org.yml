@@ -60,9 +60,6 @@ jobs:
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
-    steps:
-    - uses: actions/checkout@v2.3.3
-
     - name: falling_item
       run: ./mirror.sh
       env:
