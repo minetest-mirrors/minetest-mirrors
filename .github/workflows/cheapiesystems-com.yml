@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2.3.3
 
-    - name: mirror
+    - name: digistuff
       run: ./mirror.sh
       env:
         source_repo: https://cheapiesystems.com/git/digistuff
@@ -20,7 +20,7 @@ jobs:
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
-    - name: mirror
+    - name: invsaw
       run: ./mirror.sh
       env:
         source_repo: https://cheapiesystems.com/git/invsaw

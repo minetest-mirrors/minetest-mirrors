@@ -13,21 +13,15 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/digistuff
 * https://github.com/minetest-mirrors/invsaw
 
-## notabug.org
+## notabug.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/notabug-org/badge.svg)
 
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/bonemeal/badge.svg) https://github.com/minetest-mirrors/bonemeal
-
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/ambience/badge.svg) https://github.com/minetest-mirrors/ambience
-
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/bakedclay/badge.svg) https://github.com/minetest-mirrors/bakedclay
-
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/farming/badge.svg) https://github.com/minetest-mirrors/farming
-
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/wine/badge.svg) https://github.com/minetest-mirrors/wine
-
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/falling_item/badge.svg) https://github.com/minetest-mirrors/falling_item
-
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/mobs_redo/badge.svg) https://github.com/minetest-mirrors/mobs_redo
+* https://github.com/minetest-mirrors/bonemeal
+* https://github.com/minetest-mirrors/ambience
+* https://github.com/minetest-mirrors/bakedclay
+* https://github.com/minetest-mirrors/farming
+* https://github.com/minetest-mirrors/wine
+* https://github.com/minetest-mirrors/falling_item
+* https://github.com/minetest-mirrors/mobs_redo
 
 ## codeberg.org
 
