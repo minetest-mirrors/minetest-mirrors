@@ -2,19 +2,16 @@
 Mirrored repositories from unreliable git-hostings
 ------
 
-## git.bananach.space
-
-![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/git-bananach-space/badge.svg)
+## git.bananach.space ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/git-bananach-space/badge.svg)
 
 * https://github.com/minetest-mirrors/advtrains
 * https://github.com/minetest-mirrors/ehlphabet
 * https://github.com/minetest-mirrors/advtrains_platform
 
-## cheapiesystems.com
+## cheapiesystems.com ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/cheapiesystems-com/badge.svg)
 
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/digistuff/badge.svg) https://github.com/minetest-mirrors/digistuff
-
-* ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/invsaw/badge.svg) https://github.com/minetest-mirrors/invsaw
+* https://github.com/minetest-mirrors/digistuff
+* https://github.com/minetest-mirrors/invsaw
 
 ## notabug.org
 

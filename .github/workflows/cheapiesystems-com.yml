@@ -1,4 +1,4 @@
-name: digistuff
+name: cheapiesystems-com
 
 on:
   schedule:
@@ -17,5 +17,13 @@ jobs:
       env:
         source_repo: https://cheapiesystems.com/git/digistuff
         github_repo: digistuff.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: mirror
+      run: ./mirror.sh
+      env:
+        source_repo: https://cheapiesystems.com/git/invsaw
+        github_repo: invsaw.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
