@@ -5,7 +5,7 @@ GITHUB_REPO_URL=https://${access_token}@github.com/minetest-mirrors/${github_rep
 
 # fetch commit-checksums
 LOCAL_SHA=$(git ls-remote "${GITHUB_REPO_URL}" ${branch} | cut -f1)
-REMOTE_SHA=$(git ls-remote "${source_repo}" ${branch} | cut -f1)
+REMOTE_SHA=$(git ls-remote "${source_repo}" ${branch} | head -n1 | cut -f1)
 
 echo "Local sha: ${LOCAL_SHA} (${github_repo})"
 echo "Remote sha: ${REMOTE_SHA} (${source_repo})"
