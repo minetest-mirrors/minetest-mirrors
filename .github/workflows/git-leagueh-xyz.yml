@@ -15,7 +15,7 @@ jobs:
     - name: playerfactions
       run: ./mirror.sh
       env:
-        source_repo: https://git.leagueh.xyz/katp32/playerfactions.git
+        source_repo: https://leagueh.xyz/git/katp32/playerfactions/.git
         github_repo: playerfactions.git
         branch: main
         access_token: ${{ secrets.ACCESS_TOKEN }}
