@@ -8,6 +8,10 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/ehlphabet
 * https://github.com/minetest-mirrors/advtrains_platform
 
+## git.minetest.land ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/git-minetest-land/badge.svg)
+
+* https://github.com/minetest-mirrors/MineClone2
+
 ## cheapiesystems.com ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/cheapiesystems-com/badge.svg)
 
 * https://github.com/minetest-mirrors/digistuff

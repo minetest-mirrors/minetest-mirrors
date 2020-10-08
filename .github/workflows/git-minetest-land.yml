@@ -1,0 +1,21 @@
+name: git-minetest-land
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2.3.3
+
+    - name: MineClone2
+      run: ./mirror.sh
+      env:
+        source_repo: https://git.minetest.land/Wuzzy/MineClone2.git
+        github_repo: MineClone2.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
