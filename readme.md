@@ -32,10 +32,6 @@ Mirrored repositories from unreliable git-hostings
 
 * https://github.com/minetest-mirrors/hidden_doors
 
-## git.leagueh.xyz ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/git-leagueh-xyz/badge.svg)
-
-* https://github.com/minetest-mirrors/playerfactions
-
 ## repo.or.cz ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/repo-or-cz/badge.svg)
 
 * https://github.com/minetest-mirrors/easyvend
