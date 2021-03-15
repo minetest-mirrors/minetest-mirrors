@@ -20,6 +20,14 @@ jobs:
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
+    - name: basic_trains
+      run: ./mirror.sh
+      env:
+        source_repo: https://git.bananach.space/basic_trains.git
+        github_repo: basic_trains.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
     - name: ehlphabet
       run: ./mirror.sh
       env:
