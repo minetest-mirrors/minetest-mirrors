@@ -34,8 +34,3 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/easyvend
 * https://github.com/minetest-mirrors/hudbars
 * https://github.com/minetest-mirrors/hbarmor
-
-## gitlab.com ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/gitlab-com/badge.svg)
-
-* https://github.com/minetest-mirrors/pipeworks
-
