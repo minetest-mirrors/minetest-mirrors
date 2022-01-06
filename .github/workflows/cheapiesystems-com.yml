@@ -12,6 +12,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2.3.5
 
+    - name: mesecons
+      run: ./mirror.sh
+      env:
+        source_repo: https://cheapiesystems.com/git/mesecons
+        github_repo: mesecons.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
     - name: digistuff
       run: ./mirror.sh
       env:

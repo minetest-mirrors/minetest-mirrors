@@ -11,6 +11,7 @@ Mirrored repositories from unreliable git-hostings
 
 ## cheapiesystems.com ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/cheapiesystems-com/badge.svg)
 
+* https://github.com/minetest-mirrors/mesecons
 * https://github.com/minetest-mirrors/digistuff
 * https://github.com/minetest-mirrors/invsaw
 
