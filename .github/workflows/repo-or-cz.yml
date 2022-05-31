@@ -2,7 +2,7 @@ name: repo-or-cz
 
 on:
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '0 0 * * *'
 
 jobs:
   build:

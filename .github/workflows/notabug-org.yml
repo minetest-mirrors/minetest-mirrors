@@ -2,7 +2,7 @@ name: notabug-org
 
 on:
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '0 0 * * *'
 
 jobs:
   build:
@@ -33,6 +33,30 @@ jobs:
       env:
         source_repo: https://notabug.org/TenPlus1/mobs_animal.git
         github_repo: mobs_animal.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: mobs_monster
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/mobs_monster.git
+        github_repo: mobs_monster.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: mobs_water
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/mobs_water.git
+        github_repo: mobs_water.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: mob_horse
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/mob_horse.git
+        github_repo: mob_horse.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
