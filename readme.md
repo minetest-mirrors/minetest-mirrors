@@ -32,9 +32,6 @@ Mirrored repositories from unreliable git-hostings
 ## codeberg.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/codeberg-org/badge.svg)
 
 * https://github.com/minetest-mirrors/hidden_doors
-
-## repo.or.cz ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/repo-or-cz/badge.svg)
-
 * https://github.com/minetest-mirrors/easyvend
 * https://github.com/minetest-mirrors/hudbars
 * https://github.com/minetest-mirrors/hbarmor
