@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: minetest_easyvend
+    - name: easyvend
       run: ./mirror.sh
       env:
         source_repo: https://codeberg.org/Wuzzy/minetest_easyvend.git
@@ -20,7 +20,7 @@ jobs:
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
-    - name: mirror
+    - name: hbarmor
       run: ./mirror.sh
       env:
         source_repo: https://codeberg.org/Wuzzy/minetest_hbarmor.git
@@ -28,7 +28,7 @@ jobs:
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
-    - name: mirror
+    - name: hudbars
       run: ./mirror.sh
       env:
         source_repo: https://codeberg.org/Wuzzy/minetest_hudbars.git
