@@ -12,6 +12,22 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: pbj_pup
+      run: ./mirror.sh
+      env:
+        source_repo:  https://notabug.org/TenPlus1/pbj_pup.git
+        github_repo: pbj_pup.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: pie
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/pie.git
+        github_repo: pie.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
     - name: bonemeal
       run: ./mirror.sh
       env:
