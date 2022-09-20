@@ -118,3 +118,11 @@ jobs:
         github_repo: falling_item.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: bees
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/bees.git
+        github_repo: bees.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
