@@ -30,6 +30,7 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/mobs_animal
 * https://github.com/minetest-mirrors/pie
 * https://github.com/minetest-mirrors/pbj_pup
+* https://github.com/minetest-mirrors/bees
 
 ## codeberg.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/codeberg-org/badge.svg)
 
