@@ -15,6 +15,14 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: cblocks
+      run: ./mirror.sh
+      env:
+        source_repo:  https://notabug.org/TenPlus1/cblocks.git
+        github_repo: cblocks.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
     - name: pbj_pup
       run: ./mirror.sh
       env:

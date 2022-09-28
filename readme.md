@@ -17,6 +17,7 @@ Mirrored repositories from unreliable git-hostings
 
 ## notabug.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/notabug-org/badge.svg)
 
+* https://github.com/minetest-mirrors/cblocks
 * https://github.com/minetest-mirrors/bonemeal
 * https://github.com/minetest-mirrors/ambience
 * https://github.com/minetest-mirrors/bakedclay
