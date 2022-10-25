@@ -43,3 +43,11 @@ jobs:
         github_repo: hidden_doors.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: hbhunger
+      run: ./mirror.sh
+      env:
+        source_repo: https://codeberg.org/Wuzzy/minetest_hbhunger.git
+        github_repo: hbhunger.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}

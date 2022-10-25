@@ -39,3 +39,4 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/easyvend
 * https://github.com/minetest-mirrors/hudbars
 * https://github.com/minetest-mirrors/hbarmor
+* https://codeberg.org/Wuzzy/minetest_hbhunger
