@@ -134,3 +134,11 @@ jobs:
         github_repo: bees.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: ethereal
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/ethereal.git
+        github_repo: ethereal.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
