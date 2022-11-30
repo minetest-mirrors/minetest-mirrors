@@ -142,3 +142,27 @@ jobs:
         github_repo: ethereal.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: hopper
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/hopper.git
+        github_repo: hopper.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: itemframes
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/itemframes.git
+        github_repo: itemframes.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: mobs_npc
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/mobs_npc.git
+        github_repo: mobs_npc.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
