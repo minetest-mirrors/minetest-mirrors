@@ -166,3 +166,11 @@ jobs:
         github_repo: mobs_npc.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: caverealms_lite
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/caverealms_lite.git
+        github_repo: caverealms_lite.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
