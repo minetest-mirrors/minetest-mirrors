@@ -33,6 +33,10 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/pbj_pup
 * https://github.com/minetest-mirrors/bees
 * https://github.com/minetest-mirrors/ethereal
+* https://notabug.org/TenPlus1/hopper
+* https://notabug.org/TenPlus1/itemframes
+* https://notabug.org/TenPlus1/mobs_npc
+* https://notabug.org/TenPlus1/caverealms_lite
 
 ## codeberg.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/codeberg-org/badge.svg)
 
