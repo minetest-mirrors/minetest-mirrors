@@ -33,10 +33,10 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/pbj_pup
 * https://github.com/minetest-mirrors/bees
 * https://github.com/minetest-mirrors/ethereal
-* https://notabug.org/TenPlus1/hopper
-* https://notabug.org/TenPlus1/itemframes
-* https://notabug.org/TenPlus1/mobs_npc
-* https://notabug.org/TenPlus1/caverealms_lite
+* https://github.com/minetest-mirrors/hopper
+* https://github.com/minetest-mirrors/itemframes
+* https://github.com/minetest-mirrors/mobs_npc
+* https://github.com/minetest-mirrors/caverealms_lite
 
 ## codeberg.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/codeberg-org/badge.svg)
 
@@ -44,4 +44,4 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/easyvend
 * https://github.com/minetest-mirrors/hudbars
 * https://github.com/minetest-mirrors/hbarmor
-* https://codeberg.org/Wuzzy/minetest_hbhunger
+* https://github.com/minetest-mirrors/hbhunger
