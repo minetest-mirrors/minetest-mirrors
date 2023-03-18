@@ -37,6 +37,7 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/itemframes
 * https://github.com/minetest-mirrors/mobs_npc
 * https://github.com/minetest-mirrors/caverealms_lite
+* https://github.com/minetest-mirrors/other_worlds
 
 ## codeberg.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/codeberg-org/badge.svg)
 

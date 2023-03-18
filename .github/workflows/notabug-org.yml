@@ -174,3 +174,11 @@ jobs:
         github_repo: caverealms_lite.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: other_worlds
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/other_worlds.git
+        github_repo: other_worlds.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
