@@ -1,6 +1,7 @@
 [{
     "remote": "https://notabug.org/TenPlus1/cblocks.git",
-    "repo": "cblocks"
+    "repo": "cblocks",
+    "branch": "master"
 },{
     "remote": "https://notabug.org/TenPlus1/pbj_pup.git",
     "repo": "pbj_pup"
