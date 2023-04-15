@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+ backup:
+  build: build
+  restart: always
+  volumes:
+   - "git_cache:/git_cache"
+
+volumes:
+  git_cache: {}
