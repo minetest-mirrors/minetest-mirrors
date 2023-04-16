@@ -11,4 +11,88 @@
 },{
     "remote": "https://notabug.org/TenPlus1/bonemeal.git",
     "repo": "bonemeal"
+},{
+    "remote": "https://notabug.org/TenPlus1/mobs_redo.git",
+    "repo": "mobs_redo"
+},{
+    "remote": "https://notabug.org/TenPlus1/mobs_animal.git",
+    "repo": "mobs_animal"
+},{
+    "remote": "https://notabug.org/TenPlus1/mobs_monster.git",
+    "repo": "mobs_monster"
+},{
+    "remote": "https://notabug.org/TenPlus1/mobs_water.git",
+    "repo": "mobs_water"
+},{
+    "remote": "https://notabug.org/TenPlus1/mob_horse.git",
+    "repo": "mob_horse"
+},{
+    "remote": "https://notabug.org/TenPlus1/ambience.git",
+    "repo": "ambience"
+},{
+    "remote": "https://notabug.org/TenPlus1/bakedclay.git",
+    "repo": "bakedclay"
+},{
+    "remote": "https://notabug.org/TenPlus1/farming.git",
+    "repo": "farming"
+},{
+    "remote": "https://notabug.org/TenPlus1/wine.git",
+    "repo": "wine"
+},{
+    "remote": "https://notabug.org/TenPlus1/falling_item.git",
+    "repo": "falling_item"
+},{
+    "remote": "https://notabug.org/TenPlus1/bees.git",
+    "repo": "bees"
+},{
+    "remote": "https://notabug.org/TenPlus1/ethereal.git",
+    "repo": "ethereal"
+},{
+    "remote": "https://notabug.org/TenPlus1/hopper.git",
+    "repo": "hopper"
+},{
+    "remote": "https://notabug.org/TenPlus1/itemframes.git",
+    "repo": "itemframes"
+},{
+    "remote": "https://notabug.org/TenPlus1/mobs_npc.git",
+    "repo": "mobs_npc"
+},{
+    "remote": "https://notabug.org/TenPlus1/caverealms_lite.git",
+    "repo": "caverealms_lite"
+},{
+    "remote": "https://notabug.org/TenPlus1/other_worlds.git",
+    "repo": "other_worlds"
+},{
+    "remote": "https://cheapiesystems.com/git/digistuff",
+    "repo": "digistuff"
+},{
+    "remote": "https://cheapiesystems.com/git/invsaw",
+    "repo": "invsaw"
+},{
+    "remote": "https://codeberg.org/Wuzzy/minetest_easyvend.git",
+    "repo": "easyvend"
+},{
+    "remote": "https://codeberg.org/Wuzzy/minetest_hbarmor.git",
+    "repo": "hbarmor"
+},{
+    "remote": "https://codeberg.org/Wuzzy/minetest_hudbars.git",
+    "repo": "hudbars"
+},{
+    "remote": "https://codeberg.org/Wuzzy/minetest_hbhunger.git",
+    "repo": "hbhunger"
+},{
+    "remote": "https://codeberg.org/Hamlet/hidden_doors.git",
+    "repo": "hidden_doors"
+},{
+    "remote": "https://git.bananach.space/advtrains.git",
+    "repo": "advtrains"
+},{
+    "remote": "https://git.bananach.space/basic_trains.git",
+    "repo": "basic_trains"
+},{
+    "remote": "https://git.bananach.space/ehlphabet.git",
+    "repo": "ehlphabet"
+},{
+    "remote": "https://git.bananach.space/advtrains_platform.git",
+    "repo": "advtrains_platform"
 }]

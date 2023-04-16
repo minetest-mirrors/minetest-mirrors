@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+# fetch access token
+ACCESS_TOKEN=$(cat /access_token)
+
 # working dir
 cd /git_cache
 
@@ -13,7 +16,7 @@ while read -r remote; read -r repo; read -r branch; do
     echo "Checking repo ${repo} (remote: ${remote}) on branch ${branch}"
 
     # full github url
-    GITHUB_REPO_URL="https://github.com/minetest-mirrors/${repo}"
+    GITHUB_REPO_URL="https://${ACCESS_TOKEN}@github.com/minetest-mirrors/${repo}"
 
     # initial clone if the .git dir does not exist
     test -d "$repo/.git" || git clone $remote $repo
@@ -26,4 +29,15 @@ while read -r remote; read -r repo; read -r branch; do
     test "${LOCAL_SHA}" == "${REMOTE_SHA}" && continue
 
     echo "Changes found"
+    # change to repository directory
+    cd ${repo}
+
+    # pull latest changes
+    git pull origin ${branch}
+
+    # push changes to mirror repo
+    git push ${GITHUB_REPO_URL} ${branch}
+
+    # change back to base-dir
+    cd ..
 done

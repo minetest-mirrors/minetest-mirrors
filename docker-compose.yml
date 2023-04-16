@@ -2,7 +2,10 @@ version: "2"
 
 services:
  backup:
-  build: build
+  build:
+    context: build
+    args:
+      ACCESS_TOKEN: "minetest-mirrors:<omitted>"
   restart: always
   volumes:
    - "git_cache:/git_cache"
