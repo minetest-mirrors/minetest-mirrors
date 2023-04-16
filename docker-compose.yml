@@ -5,7 +5,7 @@ services:
   build:
     context: build
     args:
-      ACCESS_TOKEN: "minetest-mirrors:<omitted>"
+      ACCESS_TOKEN: "minetest-mirrors:<ommitted>"
   restart: always
   volumes:
    - "git_cache:/git_cache"
