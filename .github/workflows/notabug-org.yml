@@ -182,3 +182,5 @@ jobs:
         github_repo: other_worlds.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+    
+    - uses: gautamkrishnar/keepalive-workflow@v1
