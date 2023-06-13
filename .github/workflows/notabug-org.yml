@@ -182,5 +182,13 @@ jobs:
         github_repo: other_worlds.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: invisiblocks
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/TenPlus1/invisiblocks.git
+        github_repo: invisiblocks.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
     
     - uses: gautamkrishnar/keepalive-workflow@v1
