@@ -43,3 +43,5 @@ jobs:
         github_repo: advtrains_platform.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - uses: gautamkrishnar/keepalive-workflow@v1

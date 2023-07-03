@@ -51,3 +51,13 @@ jobs:
         github_repo: hbhunger.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: xdecor-libre
+      run: ./mirror.sh
+      env:
+        source_repo: https://codeberg.org/Wuzzy/xdecor-libre.git
+        github_repo: xdecor-libre.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - uses: gautamkrishnar/keepalive-workflow@v1
