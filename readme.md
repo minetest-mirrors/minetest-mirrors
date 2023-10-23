@@ -16,7 +16,7 @@ Mirrored repositories from unreliable git-hostings
 
 ## notabug.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/notabug-org/badge.svg)
 
-* none
+* https://github.com/minetest-mirrors/instant_ores
 
 ## codeberg.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/codeberg-org/badge.svg)
 

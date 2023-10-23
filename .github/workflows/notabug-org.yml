@@ -14,5 +14,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    
     - uses: gautamkrishnar/keepalive-workflow@v1
+
+    - name: instant_ores
+      run: ./mirror.sh
+      env:
+        source_repo: https://notabug.org/Piezo_/instant_ores
+        github_repo: instant_ores.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
