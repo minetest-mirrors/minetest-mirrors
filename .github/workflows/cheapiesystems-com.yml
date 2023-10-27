@@ -31,4 +31,20 @@ jobs:
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
+    - name: arrowboards
+      run: ./mirror.sh
+      env:
+        source_repo: https://cheapiesystems.com/git/arrowboards
+        github_repo: arrowboards.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: roads
+      run: ./mirror.sh
+      env:
+        source_repo: https://cheapiesystems.com/git/roads
+        github_repo: roads.git
+        branch: master
+        access_token: ${{ secrets.ACCESS_TOKEN }}
+
     - uses: gautamkrishnar/keepalive-workflow@v1
