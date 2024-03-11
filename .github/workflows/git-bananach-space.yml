@@ -47,4 +47,4 @@ jobs:
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
-    - uses: gautamkrishnar/keepalive-workflow@v1
+    - uses: gautamkrishnar/keepalive-workflow@v2
