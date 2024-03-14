@@ -9,13 +9,6 @@ Mirrored repositories from unreliable git-hostings
 * https://github.com/minetest-mirrors/basic_trains
 * https://github.com/minetest-mirrors/ehlphabet
 
-## cheapiesystems.com ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/cheapiesystems-com/badge.svg)
-
-* https://github.com/minetest-mirrors/arrowboards
-* https://github.com/minetest-mirrors/digistuff
-* https://github.com/minetest-mirrors/invsaw
-* https://github.com/minetest-mirrors/roads
-
 ## notabug.org ![](https://github.com/minetest-mirrors/minetest-mirrors/workflows/notabug-org/badge.svg)
 
 * https://github.com/minetest-mirrors/instant_ores
