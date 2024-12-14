@@ -31,14 +31,6 @@ jobs:
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
 
-    - name: ehlphabet
-      run: ./mirror.sh
-      env:
-        source_repo: https://git.bananach.space/ehlphabet.git
-        github_repo: ehlphabet.git
-        branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
-
     - name: advtrains_platform
       run: ./mirror.sh
       env:
