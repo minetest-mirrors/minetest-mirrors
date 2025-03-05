@@ -21,7 +21,7 @@ jobs:
         source_repo: https://codeberg.org/Wuzzy/minetest_easyvend.git
         github_repo: easyvend.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: hbarmor
       run: ./mirror.sh
@@ -29,7 +29,7 @@ jobs:
         source_repo: https://codeberg.org/Wuzzy/minetest_hbarmor.git
         github_repo: hbarmor.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: hudbars
       run: ./mirror.sh
@@ -37,7 +37,7 @@ jobs:
         source_repo: https://codeberg.org/Wuzzy/minetest_hudbars.git
         github_repo: hudbars.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: hidden_doors
       run: ./mirror.sh
@@ -45,7 +45,7 @@ jobs:
         source_repo: https://codeberg.org/Hamlet/hidden_doors.git
         github_repo: hidden_doors.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: hbhunger
       run: ./mirror.sh
@@ -53,7 +53,7 @@ jobs:
         source_repo: https://codeberg.org/Wuzzy/minetest_hbhunger.git
         github_repo: hbhunger.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: xdecor-libre
       run: ./mirror.sh
@@ -61,7 +61,7 @@ jobs:
         source_repo: https://codeberg.org/Wuzzy/xdecor-libre.git
         github_repo: xdecor-libre.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: cblocks
       run: ./mirror.sh
@@ -69,7 +69,7 @@ jobs:
         source_repo:  https://codeberg.org/tenplus1/cblocks.git
         github_repo: cblocks.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: pbj_pup
       run: ./mirror.sh
@@ -77,7 +77,7 @@ jobs:
         source_repo:  https://codeberg.org/tenplus1/pbj_pup.git
         github_repo: pbj_pup.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: pie
       run: ./mirror.sh
@@ -85,7 +85,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/pie.git
         github_repo: pie.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: bonemeal
       run: ./mirror.sh
@@ -93,7 +93,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/bonemeal.git
         github_repo: bonemeal.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: mobs_redo
       run: ./mirror.sh
@@ -101,7 +101,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/mobs_redo.git
         github_repo: mobs_redo.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: mobs_animal
       run: ./mirror.sh
@@ -109,7 +109,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/mobs_animal.git
         github_repo: mobs_animal.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: mobs_monster
       run: ./mirror.sh
@@ -117,7 +117,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/mobs_monster.git
         github_repo: mobs_monster.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: mobs_water
       run: ./mirror.sh
@@ -125,7 +125,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/mobs_water.git
         github_repo: mobs_water.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: mob_horse
       run: ./mirror.sh
@@ -133,7 +133,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/mob_horse.git
         github_repo: mob_horse.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: ambience
       run: ./mirror.sh
@@ -141,7 +141,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/ambience.git
         github_repo: ambience.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: bakedclay
       run: ./mirror.sh
@@ -149,7 +149,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/bakedclay.git
         github_repo: bakedclay.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: farming
       run: ./mirror.sh
@@ -157,7 +157,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/farming.git
         github_repo: farming.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: wine
       run: ./mirror.sh
@@ -165,7 +165,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/wine.git
         github_repo: wine.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: falling_item
       run: ./mirror.sh
@@ -173,7 +173,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/falling_item.git
         github_repo: falling_item.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: bees
       run: ./mirror.sh
@@ -181,7 +181,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/bees.git
         github_repo: bees.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: ethereal
       run: ./mirror.sh
@@ -189,7 +189,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/ethereal.git
         github_repo: ethereal.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: hopper
       run: ./mirror.sh
@@ -197,7 +197,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/hopper.git
         github_repo: hopper.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: itemframes
       run: ./mirror.sh
@@ -205,7 +205,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/itemframes.git
         github_repo: itemframes.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: mobs_npc
       run: ./mirror.sh
@@ -213,7 +213,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/mobs_npc.git
         github_repo: mobs_npc.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: caverealms_lite
       run: ./mirror.sh
@@ -221,7 +221,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/caverealms_lite.git
         github_repo: caverealms_lite.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: other_worlds
       run: ./mirror.sh
@@ -229,7 +229,7 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/other_worlds.git
         github_repo: other_worlds.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: invisiblocks
       run: ./mirror.sh
@@ -237,6 +237,6 @@ jobs:
         source_repo: https://codeberg.org/tenplus1/invisiblocks.git
         github_repo: invisiblocks.git
         branch: master
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+        access_token: ${{ secrets.GITHUB_TOKEN }}
 
     - uses: gautamkrishnar/keepalive-workflow@v2
