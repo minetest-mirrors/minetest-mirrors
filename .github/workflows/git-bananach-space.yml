@@ -21,7 +21,7 @@ jobs:
         source_repo: https://git.bananach.space/advtrains.git
         github_repo: advtrains.git
         branch: master
-        access_token: ${{ secrets.GITHUB_TOKEN }}
+        access_token: ${{ secrets.ACCESS_TOKEN }}
 
     - name: basic_trains
       run: ./mirror.sh
@@ -29,7 +29,7 @@ jobs:
         source_repo: https://git.bananach.space/basic_trains.git
         github_repo: basic_trains.git
         branch: master
-        access_token: ${{ secrets.GITHUB_TOKEN }}
+        access_token: ${{ secrets.ACCESS_TOKEN }}
 
     - name: advtrains_platform
       run: ./mirror.sh
@@ -37,6 +37,6 @@ jobs:
         source_repo: https://git.bananach.space/advtrains_platform.git
         github_repo: advtrains_platform.git
         branch: master
-        access_token: ${{ secrets.GITHUB_TOKEN }}
+        access_token: ${{ secrets.ACCESS_TOKEN }}
 
     - uses: gautamkrishnar/keepalive-workflow@v2
