@@ -238,5 +238,3 @@ jobs:
         github_repo: invisiblocks.git
         branch: master
         access_token: ${{ secrets.ACCESS_TOKEN }}
-
-    - uses: gautamkrishnar/keepalive-workflow@v2

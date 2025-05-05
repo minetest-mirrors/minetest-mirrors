@@ -14,7 +14,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: gautamkrishnar/keepalive-workflow@v2
 
     - name: instant_ores
       run: ./mirror.sh
